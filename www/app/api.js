@@ -5,7 +5,7 @@
 
     function api($resource) {
 
-      var rootUrl = 'http://www.xignal.co';
+      var rootUrl = 'http://xignal-api.azurewebsites.net';
       var endpoints = {
         'surveys': rootUrl + '/surveys',
         'surveyQuestions': rootUrl + '/surveys/:id',
